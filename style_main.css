@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+	 width: 100%; 
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+button {
+    background-color: #0084ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.error {
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+
+/* Add to your style.css */
+#emoji-picker {
+    position: absolute;
+    bottom: 50px;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#emoji-picker span {
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.edit-profile-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.edit-profile-btn:hover {
+    background-color: #45a049;
+}
+
+#toggle-password {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#toggle-password img {
+    width: 20px;
+    height: 20px;
+}
